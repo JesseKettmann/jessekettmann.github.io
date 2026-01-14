@@ -5,16 +5,14 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
 }
 
-const Badge = ({ children, className }: Props) => {
+const SkillsCard = ({ children, className }: Props) => {
   return (
     <div
-      className={`rounded-full px-3 p-2 leading-none flex items-center w-fit h-fit ${
-        className ?? ""
-      }`}
+      className={`bg-bright-400 shadow-lg flex flex-col p-6 ${className ?? ""}`}
     >
       {children}
     </div>
   );
 };
 
-export default Badge;
+export default SkillsCard;

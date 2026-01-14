@@ -22,3 +22,13 @@
   --color-army-500: #3c5239;
   --color-army-400: #2a3c2f;
 }
+
+@layer components {
+  .swiper-pagination-bullet {
+    @apply bg-dull! opacity-50! w-3! h-3!;
+  }
+
+  .swiper-pagination-bullet-active {
+    @apply bg-accent! opacity-100!;
+  }
+}

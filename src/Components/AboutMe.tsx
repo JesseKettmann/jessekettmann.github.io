@@ -1,5 +1,4 @@
 import contoursImage from "../assets/contours.png";
-import Badge from "./Badge";
 import {
   EnvelopeIcon,
   PhoneIcon,
@@ -10,17 +9,7 @@ import {
 
 function AboutMe() {
   return (
-    <div className="w-full overflow-hidden bg-dull font-dm-sans relative">
-      {/* <img
-        src={contoursImage}
-        alt="Contour map"
-        className="
-                    absolute top-0 left-1/2 -translate-x-1/2
-                    h-full min-w-[2560px] opacity-60 object-cover
-                  "
-      /> */}
-
-      {/* A — background split 50/50 */}
+    <div className="w-full overflow-hidden bg-dull relative">
       <div className="absolute inset-0 grid grid-cols-2">
         <div className="bg-dull relative overflow-hidden">
           <img
@@ -38,15 +27,15 @@ function AboutMe() {
       {/* B — owns layout */}
       <div className="relative mx-auto max-w-400 grid grid-cols-[auto_1fr]">
         {/* C content */}
-        <div className="relative z-10 p-6 text-dark">
-          <div className="bg-background-mint shadow-md p-4 rounded flex flex-col items-center">
+        <div className="relative z-10 p-8 text-dark">
+          <div className="bg-background-mint shadow p-4 rounded flex flex-col items-center">
             <img
               className="h-24 w-24 rounded-full object-cover aspect-square mb-2"
               src="/src/assets/profile-picture.png"
               alt="Profile picture"
             />
             <h2 className="text-2xl font-medium">Jesse Kettmann</h2>
-            <h2 className="text-xl font-light mb-8">Software Developer</h2>
+            <h2 className="text-xl font-light mb-8">Software Engineer</h2>
             <ul className="list-none space-y-3 w-full">
               <li className="flex items-center gap-3">
                 <EnvelopeIcon className="size-6" />
@@ -69,7 +58,7 @@ function AboutMe() {
                 Game and Media Technology
               </li>
             </ul>
-            <button className="bg-accent hover:bg-accent-highlight hover:cursor-pointer text-white font-medium py-2 px-4 flex items-center mt-8 gap-3 rounded shadow-md transition duration-200">
+            <button className="bg-accent hover:bg-accent-highlight hover:cursor-pointer text-white font-medium py-2 px-4 flex items-center mt-8 gap-3 rounded shadow transition duration-200">
               Download CV
               <ArrowDownTrayIcon className="size-6" />
             </button>
@@ -77,7 +66,7 @@ function AboutMe() {
         </div>
 
         {/* D content */}
-        <div className="flex flex-col justify-between z-10 p-6 text-dark bg-bright-400">
+        <div className="flex flex-col justify-between z-10 p-8 text-dark bg-bright-400">
           <div>
             <h2 className="text-4xl font-light mb-2">About Me</h2>
             <div className="space-y-4">
