@@ -5,10 +5,11 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
   children: ReactNode;
 }
 
-const Badge = ({ children, className }: Props) => {
+const Badge = ({ children, className, ...props }: Props) => {
   return (
     <div
-      className={`rounded-full px-3 p-2 leading-none flex items-center w-fit h-fit ${
+      {...props}
+      className={`rounded-full px-3 py-2 leading-none flex items-center w-fit h-fit ${
         className ?? ""
       }`}
     >

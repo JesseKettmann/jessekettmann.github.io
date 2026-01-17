@@ -1,7 +1,8 @@
 import HeroSection from "./Components/HeroSection";
 import AboutMe from "./Components/AboutMe";
 import Projects from "./Components/Projects";
-import Skills from "./Components/Skills";
+import Education from "./Components/Education";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       <HeroSection />
       <AboutMe />
       <Projects />
-      <Skills />
+      <Education />
+      <Contact />
     </div>
   );
 }
