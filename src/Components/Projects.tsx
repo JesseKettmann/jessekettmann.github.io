@@ -194,7 +194,7 @@ function Projects() {
                     </p>
                     <p className="text-xl text-justify">
                       In more recent years, I focused on producing more complete
-                      projects through game jams and academic assignments. These
+                      projects through game jams and academic assignments. Such
                       environments are especially effective for practicing rapid
                       prototyping and prioritization, as tight deadlines require
                       strong collaboration and a clear focus on the most
@@ -253,7 +253,7 @@ function Projects() {
                       accelerate rendering. This resulted in a speedup of 2.57×,
                       though performance was constrained by GPU data transfer
                       overhead. For larger simulation grids, the optimized
-                      implementation scales considerably better.
+                      implementation scaled considerably better.
                     </p>
                     <p className="text-xl text-justify">
                       The project is available on{" "}

@@ -4,7 +4,7 @@ import { CheckBadgeIcon } from "@heroicons/react/16/solid";
 
 function Education() {
   return (
-    <div className="w-full overflow-hidden bg-bright-300">
+    <div className="w-full overflow-hidden bg-bright-400/80">
       <div className="relative mx-auto max-w-400 h-full flex flex-col items-center p-8">
         <h2 className="absolute text-4xl font-light mb-3 text-dark">
           Education
@@ -13,14 +13,14 @@ function Education() {
           <EducationCard
             name="Pre-University Education"
             type="VWO"
-            institution="Christelijk Lyceum Veenendaal"
+            institution="Chr. Lyceum Veenendaal"
             period="2014 - 2020"
             className="w-full"
           >
             <p className="text-lg text-justify">
               Pre-University Education (VWO, Gymnasium), with a Science and
-              Engineering (N&T) profile. Curriculum notably included English at
-              C1 Advanced level.
+              Engineering (N&T) profile. Curriculum included English at C1
+              Advanced level.
             </p>
           </EducationCard>
           <EducationCard

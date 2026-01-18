@@ -6,7 +6,7 @@ import Contact from "./Components/Contact";
 
 function App() {
   return (
-    <div className="w-full h-full flex flex-col font-dm-sans bg-white">
+    <div className="w-full h-full flex flex-col font-dm-sans bg-background-mint">
       <HeroSection />
       <AboutMe />
       <Projects />

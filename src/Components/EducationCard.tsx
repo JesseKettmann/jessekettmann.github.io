@@ -27,11 +27,11 @@ const EducationCard = ({
     >
       <div className="flex justify-between text-xl font-medium">
         <h3>{name}</h3>
-        <h3>{type}</h3>
+        <h3 className="text-right">{type}</h3>
       </div>
       <div className="flex justify-between text-xl font-light mb-8">
         <h3>{institution}</h3>
-        <h3>{period}</h3>
+        <h3 className="text-right">{period}</h3>
       </div>
       {children}
     </div>

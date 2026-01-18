@@ -6,6 +6,7 @@ import {
   AcademicCapIcon,
   ArrowDownTrayIcon,
 } from "@heroicons/react/24/outline";
+import { EMAIL, PHONE } from "../constants";
 
 function AboutMe() {
   return (
@@ -39,11 +40,11 @@ function AboutMe() {
             <ul className="list-none space-y-3 w-full">
               <li className="flex items-center gap-3">
                 <EnvelopeIcon className="size-6" />
-                jessekettmann@gmail.com
+                {EMAIL}
               </li>
               <li className="flex items-center gap-3">
                 <PhoneIcon className="size-6" />
-                +31 6 24554400
+                {PHONE}
               </li>
               <li className="flex items-center gap-3">
                 <MapPinIcon className="size-6" />
@@ -58,7 +59,7 @@ function AboutMe() {
                 Game and Media Technology
               </li>
             </ul>
-            <button className="bg-accent hover:bg-accent-highlight hover:cursor-pointer text-white font-medium py-2 px-4 flex items-center mt-8 gap-3 rounded shadow transition duration-200">
+            <button className="bg-accent hover:bg-accent-highlight cursor-pointer text-white font-medium py-2 px-4 flex items-center mt-8 gap-3 rounded shadow transition duration-200">
               Download CV
               <ArrowDownTrayIcon className="size-6" />
             </button>
