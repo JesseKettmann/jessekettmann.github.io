@@ -1,14 +1,14 @@
 function HeroSection() {
   return (
     <div className="w-full h-200 overflow-hidden bg-background-mint">
-      <div className="relative mx-auto max-w-340 h-full flex items-center px-6">
+      <div className="relative mx-auto max-w-338 h-full flex items-center px-8">
         {/* Image */}
         <img
           src="/src/assets/cover-image.png"
           alt="Man sitting in chair"
           className="
           absolute
-          right-6
+          right-8
           -bottom-100
           w-225
           h-auto
