@@ -4,7 +4,7 @@ import ProjectPage from "./ProjectPage";
 
 function Projects() {
   return (
-    <div className="w-full h-[750px] overflow-hidden bg-background-mint">
+    <div className="w-full h-187.5 overflow-hidden bg-background-mint">
       <div className="relative mx-auto max-w-400 h-full items-center p-8">
         <div className="h-full w-full rounded shadow overflow-hidden bg-bright-500 flex flex-col">
           <div className="shadow-md z-10">
@@ -137,6 +137,50 @@ function Projects() {
               </SwiperSlide>
               <SwiperSlide>
                 <ProjectPage
+                  image="games.png"
+                  title="Various Games"
+                  year=""
+                  tags={["C#", "Unity", "Godot", "MonoGame"]}
+                >
+                  <div className="space-y-4">
+                    <p className="text-xl text-justify">
+                      Throughout my life I've made dozens of small games and
+                      prototypes. Through these experiences, I developed a
+                      foundation across a broad range of areas like network
+                      programming, memory management, and UI design.
+                    </p>
+                    <p className="text-xl text-justify">
+                      In more recent years, I focused on producing more complete
+                      projects through game jams and academic assignments. Such
+                      environments are especially effective for practicing rapid
+                      prototyping and prioritization, as tight deadlines require
+                      strong collaboration and a clear focus on the most
+                      impactful features.
+                    </p>
+                    <p className="text-xl text-justify">
+                      Notable projects include Shenlong, which won the 8th Bored
+                      Pixels Jam out of 133 entries, and Caribbean Climb, which
+                      placed 91st in the GMTK Game Jam 2024 among 7,539 entries.
+                      For both games, I was responsible for the art and the
+                      majority of the programming.
+                    </p>
+                    <p className="text-xl text-justify">
+                      These games are available on{" "}
+                      <a
+                        href="https://drepple.itch.io"
+                        className="text-accent hover:text-accent-highlight"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        itch.io
+                      </a>
+                      .
+                    </p>
+                  </div>
+                </ProjectPage>
+              </SwiperSlide>
+              <SwiperSlide>
+                <ProjectPage
                   image="the-cycle.png"
                   title="The Cycle"
                   year="(2024)"
@@ -170,52 +214,6 @@ function Projects() {
                         rel="noopener noreferrer"
                       >
                         YouTube
-                      </a>
-                      .
-                    </p>
-                  </div>
-                </ProjectPage>
-              </SwiperSlide>
-
-              <SwiperSlide>
-                <ProjectPage
-                  image="games.png"
-                  title="Various Games"
-                  year=""
-                  tags={["C#", "Unity", "Godot", "MonoGame"]}
-                >
-                  <div className="space-y-4">
-                    <p className="text-xl text-justify">
-                      I have been programming from a young age and have made
-                      dozens of small games and prototypes. Through these
-                      experiences, I developed a foundation across a broad range
-                      of areas like network programming, memory management, and
-                      UI design.
-                    </p>
-                    <p className="text-xl text-justify">
-                      In more recent years, I focused on producing more complete
-                      projects through game jams and academic assignments. Such
-                      environments are especially effective for practicing rapid
-                      prototyping and prioritization, as tight deadlines require
-                      strong collaboration and a clear focus on the most
-                      impactful features.
-                    </p>
-                    <p className="text-xl text-justify">
-                      Notable projects include Shenlong, which won the 8th Bored
-                      Pixels Jam out of 133 entries, and Caribbean Climb, which
-                      placed 91st in the GMTK Game Jam 2024 among 7,539 entries.
-                      For both games, I was responsible for the art and the
-                      majority of the programming.
-                    </p>
-                    <p className="text-xl text-justify">
-                      These games are available on{" "}
-                      <a
-                        href="https://drepple.itch.io"
-                        className="text-accent hover:text-accent-highlight"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        itch.io
                       </a>
                       .
                     </p>

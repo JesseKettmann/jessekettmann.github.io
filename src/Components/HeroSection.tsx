@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <div className="w-full h-[800px] overflow-hidden bg-background-mint">
+    <div className="w-full h-200 overflow-hidden bg-background-mint">
       <div className="relative mx-auto max-w-340 h-full flex items-center px-6">
         {/* Image */}
         <img
@@ -10,7 +10,7 @@ function HeroSection() {
           absolute
           right-6
           -bottom-100
-          w-[900px]
+          w-225
           h-auto
           max-w-none
           object-contain

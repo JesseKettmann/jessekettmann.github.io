@@ -16,10 +16,7 @@ function AboutMe() {
           <img
             src={contoursImage}
             alt="Contour map"
-            className="
-                    absolute top-0 left-0 -translate-x-0
-                    min-w-[2560px] opacity-25 object-cover
-                  "
+            className="absolute top-0 left-0 min-w-640 opacity-25 object-cover"
           />
         </div>
         <div className="bg-bright-400" />
@@ -59,7 +56,10 @@ function AboutMe() {
                 Game and Media Technology
               </li>
             </ul>
-            <button className="bg-accent hover:bg-accent-highlight cursor-pointer text-white font-medium py-2 px-4 flex items-center mt-8 gap-3 rounded shadow transition duration-200">
+            <button
+              className="bg-accent hover:bg-accent-highlight cursor-pointer text-white font-medium
+            py-2 px-4 flex items-center mt-8 gap-3 rounded shadow transition duration-200"
+            >
               Download CV
               <ArrowDownTrayIcon className="size-6" />
             </button>
@@ -72,32 +72,25 @@ function AboutMe() {
             <h2 className="text-4xl font-light mb-2">About Me</h2>
             <div className="space-y-4">
               <p className="text-xl text-justify">
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur."
+                My name is Jesse Kettmann, and I'm a Dutch software engineer.
+                I've always been fascinated by what can be built with code, and
+                I started programming games in GameMaker Studio around the age
+                of ten. During high school, I continued teaching myself
+                technical skills alongside broader design fundamentals such as
+                UX and color theory.
               </p>
               <p className="text-xl text-justify">
-                Section 1.10.32 of "de Finibus Bonorum et Malorum", written by
-                Cicero in 45 BC "Sed ut perspiciatis unde omnis iste natus error
-                sit voluptatem accusantium doloremque laudantium, totam rem
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
-                quia consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
+                At university, I was formally introduced to core programming
+                concepts like software design patterns and different programming
+                paradigms. I worked with a variety of languages and had the
+                opportunity to collaborate with a real client as part of a Scrum
+                team. Altogether, this experience helped shape me into a
+                versatile developer.
               </p>
               <p className="text-xl text-justify">
-                translation by H. Rackham "But I must explain to you how all
-                this mistaken idea of denouncing pleasure and praising pain was
-                born and I will give you a complete account of the system, and
-                expound the actual teachings of the great explorer of the truth,
-                the master-builder of human happiness. No one rejects, dislikes,
-                or avoids pleasure itself, because it is pleasure, but because
-                those who do not know how to pursue pleasure rationally
-                encounter consequences that are extremely painful."
+                I enjoy challenging myself and constantly expanding my skill
+                set. My goal is to work on projects I'm proud of, learn along
+                the way, and keep building things that have an impact.
               </p>
             </div>
           </div>
