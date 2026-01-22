@@ -23,33 +23,29 @@ function Projects() {
                 >
                   <div className="space-y-4">
                     <p className="text-xl text-justify">
-                      I concluded my Bachelor’s degree with a software project
-                      in which I worked as part of a ten-person team to develop
-                      a prototype system for the Dutch police and KMar. This
-                      project marked my introduction to Scrum and was also the
-                      first React-based web application I contributed to.
-                      Throughout the project, I served as the front-end
-                      supervisor.
+                      I completed my Bachelor’s degree with a software project
+                      in which I worked on a ten-person team to develop a
+                      prototype system for the Dutch police and KMar. This was
+                      my first experience working with Scrum and building a
+                      React web application, where I took on the role of
+                      front-end supervisor.
                     </p>
                     <p className="text-xl text-justify">
-                      The system integrated several distinct components. One
-                      component, considered the back end, focused on setting up
-                      and managing multiple security camera streams capable of
-                      analyzing situations in real time, including traffic
-                      monitoring and passerby identification.
+                      The system combined multiple components, including a back
+                      end responsible for managing security camera streams and
+                      performing real-time analysis such as traffic monitoring
+                      and passerby detection.
                     </p>
                     <p className="text-xl text-justify">
-                      The front-end component consisted of a web interface that
-                      allowed police personnel to describe suspects using
-                      clothing attributes and filter results throughout time and
-                      space. Based on these queries, the system generated a
-                      timeline of camera shots where potential matches were
-                      detected. I was responsible for much of the user interface
-                      design and later contributed to connecting the front end
-                      to the database.
+                      On the front end, we built a web interface that allowed
+                      officers to describe suspects using clothing attributes
+                      and filter results across time and location. The system
+                      then generated timelines of relevant camera footage. I was
+                      responsible for much of the UI design and later helped
+                      connect the front end to the database.
                     </p>
                     <p className="text-xl text-justify">
-                      A demo of the project is available on{" "}
+                      A demo is available on{" "}
                       <a
                         href="https://www.youtube.com/watch?v=vV1JjrZjnxk&t=35s"
                         className="text-accent hover:text-accent-highlight"
@@ -58,14 +54,14 @@ function Projects() {
                       >
                         YouTube
                       </a>
-                      . All repositories can be found in our{" "}
+                      , and the repositories can be found in our{" "}
                       <a
                         href="https://github.com/The-un-usual-suspects"
                         className="text-accent hover:text-accent-highlight"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        GitHub Organization
+                        GitHub organization
                       </a>
                       .
                     </p>
@@ -87,28 +83,24 @@ function Projects() {
                   <div className="space-y-4">
                     <p className="text-xl text-justify">
                       For my Master’s thesis, I developed an integrated
-                      application that combined eye-tracking data with object
+                      application that combined eye-tracking data and object
                       tracking to study visual behavior during fast-paced
                       gameplay.
                     </p>
                     <p className="text-xl text-justify">
-                      Participants wore eye-tracking glasses that recorded both
-                      their field of view and gaze position. A so called
-                      "gaze-mapping" process was used to project the gaze
-                      position onto a static image of the playfield, removing
-                      the effects of head movement. Homography was then applied
-                      to eliminate perspective distortion and convert pixel
-                      coordinates into field coordinates.
+                      Participants wore eye-tracking glasses that recorded their
+                      field of view and gaze position. Using gaze mapping and
+                      homography, this gaze position was projected onto a static
+                      representation of the playfield, removing head movement
+                      and perspective distortion.
                     </p>
                     <p className="text-xl text-justify">
                       The playfield itself was recorded from above using a
-                      separate static camera. A YOLOv8 object detection model
-                      was trained to identify ball positions, and object
-                      tracking was applied to preserve ball identities over
-                      time. Once again, homography was used to transform
-                      positions into field coordinates, enabling direct
-                      comparison between gaze position and ball locations, after
-                      which visual strategies could be analyzed.
+                      separate camera. A YOLOv8 object detection model was
+                      trained to identify ball positions, and object tracking
+                      was applied to preserve ball identities over time. By
+                      transforming both gaze and object positions into field
+                      coordinates, visual strategies could be directly analyzed.
                     </p>
                     <p className="text-xl text-justify">
                       The full thesis paper is available in the{" "}
@@ -229,29 +221,26 @@ function Projects() {
                 >
                   <div className="space-y-4">
                     <p className="text-xl text-justify">
-                      One of the projects I completed at university was a
-                      performance optimization project carried out with one
-                      other student. We selected an existing application
-                      developed by a third party and focused on improving its
-                      performance as much as possible. This project marked my
-                      first in-depth experience with GPU programming.
+                      At university, I worked with another student on a
+                      performance optimization project focused on improving a
+                      third-party application. This project marked my first
+                      in-depth experience with GPU programming.
                     </p>
                     <p className="text-xl text-justify">
                       The chosen application was a 2020 fluid simulation based
                       on the lattice Boltzmann method. Instead of solving
                       complex fluid equations directly, LBM represents fluid
                       behavior by modeling how simplified particles move and
-                      interact across a regular grid.
+                      interact across a grid.
                     </p>
                     <p className="text-xl text-justify">
-                      We identified performance bottlenecks by profiling after
-                      each optimization step, allowing us to focus our efforts
-                      where they had the greatest impact. We ported multiple
-                      simulation stages to the GPU and used SIMD instructions to
-                      accelerate rendering. This resulted in a speedup of 2.57×,
-                      though performance was constrained by GPU data transfer
-                      overhead. For larger simulation grids, the optimized
-                      implementation scaled considerably better.
+                      We profiled frequently to identify performance
+                      bottlenecks, and ended up porting most simulation steps to
+                      the GPU, and using SIMD instructions to accelerate
+                      rendering. These changes resulted in a 2.57× speedup,
+                      though our implementation scaled significantly better for
+                      larger simulation grids, where GPU data transfer overhead
+                      becomes a smaller factor.
                     </p>
                     <p className="text-xl text-justify">
                       The project is available on{" "}

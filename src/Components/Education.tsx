@@ -6,10 +6,10 @@ function Education() {
   return (
     <div className="w-full overflow-hidden bg-bright-400/80">
       <div className="relative mx-auto max-w-400 h-full flex flex-col items-center p-8">
-        <h2 className="absolute text-4xl font-light mb-3 text-dark">
+        <h2 className="xl:absolute text-4xl font-light mb-4 text-dark">
           Education
         </h2>
-        <div className="h-full w-full gap-8 flex items-end">
+        <div className="h-full w-full gap-8 flex flex-col xl:flex-row items-end">
           <EducationCard
             name="Pre-University Education"
             type="VWO"
@@ -52,12 +52,14 @@ function Education() {
               computer vision, with a strong emphasis on research-driven
               development through individual and team projects.
             </p>
-            <Badge className="bg-accent text-white">
-              <div className="flex items-center gap-1.5">
-                <CheckBadgeIcon className="size-4.5" />
-                Graduated with Honors
-              </div>
-            </Badge>
+            <div className="w-full flex justify-center">
+              <Badge className="bg-accent text-white">
+                <div className="flex items-center gap-1.5">
+                  <CheckBadgeIcon className="size-4.5" />
+                  Graduated with Honors
+                </div>
+              </Badge>
+            </div>
           </EducationCard>
         </div>
       </div>
