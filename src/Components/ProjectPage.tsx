@@ -34,7 +34,7 @@ const ProjectPage = ({
       />
       <div className="p-4 sm:p-6 xl:pr-23 flex flex-col gap-4 sm:gap-6">
         <div className="sm:text-xl text-justify">
-          <div className="flex gap-8 text-xl sm:text-3xl text-left font-light mb-2">
+          <div className="flex justify-between sm:justify-start gap-8 text-xl sm:text-3xl text-left font-light mb-2">
             <h2>{title}</h2>
             <h2 className="text-dull">{year}</h2>
           </div>
