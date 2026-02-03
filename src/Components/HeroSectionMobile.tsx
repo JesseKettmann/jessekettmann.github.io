@@ -14,14 +14,13 @@ function HeroSectionMobile() {
           -translate-x-1/2
           translate-y-[28%]
           w-[90vw]
-          max-w-[225]
           h-auto
           object-contain
           z-0
         "
       />
 
-      {/* Gradient fade (top part) */}
+      {/* Gradient fade */}
       <div
         className="
           absolute
@@ -35,7 +34,7 @@ function HeroSectionMobile() {
         "
       />
 
-      {/* Solid white bottom */}
+      {/* Solid bottom */}
       <div
         className="
           absolute
