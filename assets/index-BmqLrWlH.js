@@ -22,7 +22,6 @@ Error generating stack: `+e.message+`
           -translate-x-1/2\r
           translate-y-[28%]\r
           w-[90vw]\r
-          max-w-[225]\r
           h-auto\r
           object-contain\r
           z-0\r
