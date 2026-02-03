@@ -39,7 +39,7 @@ function Education() {
             </p>
           </EducationCard>
           <EducationCard
-            name="Game and Media Technology"
+            name="Game & Media Technology"
             type="Master"
             institution="Utrecht University"
             period="2023 - 2025"
