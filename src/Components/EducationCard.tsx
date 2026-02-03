@@ -21,15 +21,15 @@ const EducationCard = ({
   return (
     <div
       {...props}
-      className={`bg-bright-500 h-full shadow-lg flex flex-col p-8 ${
+      className={`bg-bright-500 h-full shadow-md sm:shadow-lg flex flex-col p-global sm:text-lg ${
         className ?? ""
       }`}
     >
-      <div className="flex justify-between text-xl font-medium">
+      <div className="flex justify-between sm:text-xl font-medium">
         <h3>{name}</h3>
         <h3 className="text-right">{type}</h3>
       </div>
-      <div className="flex justify-between text-xl font-light mb-8">
+      <div className="flex justify-between sm:text-xl font-light mb-4 sm:mb-8">
         <h3>{institution}</h3>
         <h3 className="text-right">{period}</h3>
       </div>

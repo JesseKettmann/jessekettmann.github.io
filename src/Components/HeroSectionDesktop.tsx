@@ -2,7 +2,7 @@ import HeroSectionContent from "./HeroSectionContent";
 
 function HeroSectionDesktop() {
   return (
-    <div className="relative mx-auto max-w-338 h-200 flex items-center px-8">
+    <div className="relative mx-auto max-w-338 h-200 flex items-center px-global">
       {/* Image */}
       <img
         src="/cover-image.png"

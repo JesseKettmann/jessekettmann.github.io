@@ -23,7 +23,7 @@ const Carousel = ({ children }: Props) => {
       <div
         ref={prevRef}
         className={`
-          w-13 h-13 mx-3 rounded-full flex items-center justify-center text-white absolute left-2 xl:top-1/2 translate-y-[calc((100vw-6rem)*0.1735-50%)] xl:-translate-y-1/2 z-10 shadow transition-colors duration-200
+          w-13 h-13 sm:mx-3 rounded-full flex items-center justify-center text-white absolute left-2 xl:top-1/2 translate-y-[calc((100vw-6rem)*0.1735-50%)] xl:-translate-y-1/2 z-10 shadow transition-colors duration-200
           ${
             isBeginning
               ? "bg-accent/60"
@@ -37,7 +37,7 @@ const Carousel = ({ children }: Props) => {
       <div
         ref={nextRef}
         className={`
-          w-13 h-13 mx-3 rounded-full flex items-center justify-center text-white absolute right-2 xl:top-1/2 translate-y-[calc((100vw-6rem)*0.1735-50%)] xl:-translate-y-1/2 z-10 shadow transition-colors duration-200
+          w-13 h-13 sm:mx-3 rounded-full flex items-center justify-center text-white absolute right-2 xl:top-1/2 translate-y-[calc((100vw-6rem)*0.1735-50%)] xl:-translate-y-1/2 z-10 shadow transition-colors duration-200
           ${
             isEnd
               ? "bg-accent/60"

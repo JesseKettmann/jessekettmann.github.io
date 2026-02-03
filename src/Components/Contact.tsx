@@ -7,9 +7,11 @@ import { EMAIL, PHONE } from "../constants";
 function Contact() {
   return (
     <div className="w-full overflow-hidden bg-dull text-bright-500">
-      <div className="relative mx-auto max-w-400 h-full flex flex-col items-center p-8 text-xl">
-        <h2 className="text-4xl font-light mb-3">Contact</h2>
-        <p className="mb-8">Interested in a conversation? Get in touch!</p>
+      <div className="relative mx-auto max-w-400 h-full flex flex-col items-center p-global pb-8! sm:text-xl text-center">
+        <h2 className="text-4xl font-light mb-1 sm:mb-3">Contact</h2>
+        <p className="mb-6 sm:mb-8">
+          Interested in a conversation? Get in touch!
+        </p>
         <div className="flex gap-3">
           <ContactButton onClick={() => window.open(`mailto:${EMAIL}`)}>
             <EnvelopeIcon className="size-8" />

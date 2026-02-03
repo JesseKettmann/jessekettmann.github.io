@@ -4,6 +4,22 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 @import "tailwindcss";
 
+.m-global {
+  @apply m-4 sm:m-8;
+}
+
+.p-global {
+  @apply p-4 sm:p-8;
+}
+
+.px-global {
+  @apply px-4 sm:px-8;
+}
+
+.gap-global {
+  @apply gap-4 sm:gap-8;
+}
+
 @theme {
   /* Fonts */
   --font-quicksand: "Quicksand", sans-serif;
