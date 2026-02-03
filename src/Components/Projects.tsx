@@ -4,7 +4,7 @@ import ProjectPage from "./ProjectPage";
 
 function Projects() {
   return (
-    <div className="w-full h-187.5 overflow-hidden bg-background-mint">
+    <div className="w-full overflow-hidden bg-background-mint">
       <div className="relative mx-auto max-w-400 h-full items-center p-8">
         <div className="h-full w-full rounded shadow overflow-hidden bg-bright-500 flex flex-col">
           <div className="shadow-md z-10">
@@ -16,7 +16,7 @@ function Projects() {
             <Carousel>
               <SwiperSlide>
                 <ProjectPage
-                  image="timeline-suspects.png"
+                  image="timeline-suspects"
                   title="Timeline Suspects"
                   year="(2023)"
                   tags={["React", "Tailwind CSS", "JavaScript", "SQL"]}
@@ -37,12 +37,11 @@ function Projects() {
                       and passerby detection.
                     </p>
                     <p className="text-xl text-justify">
-                      On the front end, we built a web interface that allowed
-                      officers to describe suspects using clothing attributes
-                      and filter results across time and location. The system
-                      then generated timelines of relevant camera footage. I was
-                      responsible for much of the UI design and later helped
-                      connect the front end to the database.
+                      We built a web interface that allowed officers to describe
+                      suspects using clothing attributes and filter results by
+                      location. The system then generated timelines of relevant
+                      camera footage. I was responsible for much of the UI
+                      design and later helped connect the database.
                     </p>
                     <p className="text-xl text-justify">
                       A demo is available on{" "}
@@ -70,7 +69,7 @@ function Projects() {
               </SwiperSlide>
               <SwiperSlide>
                 <ProjectPage
-                  image="eye-tracking-pinball.png"
+                  image="eye-tracking-pinball"
                   title="Eye-Tracking Pinball Research"
                   year="(2025)"
                   tags={[
@@ -95,12 +94,12 @@ function Projects() {
                       and perspective distortion.
                     </p>
                     <p className="text-xl text-justify">
-                      The playfield itself was recorded from above using a
-                      separate camera. A YOLOv8 object detection model was
-                      trained to identify ball positions, and object tracking
-                      was applied to preserve ball identities over time. By
-                      transforming both gaze and object positions into field
-                      coordinates, visual strategies could be directly analyzed.
+                      The playfield itself was recorded from above using another
+                      camera. An object detection model was trained to identify
+                      ball positions, and tracking was applied to preserve ball
+                      identities over time. By transforming gaze and object
+                      positions into field coordinates, visual strategies could
+                      be analyzed.
                     </p>
                     <p className="text-xl text-justify">
                       The full thesis paper is available in the{" "}
@@ -129,7 +128,7 @@ function Projects() {
               </SwiperSlide>
               <SwiperSlide>
                 <ProjectPage
-                  image="games.png"
+                  image="games"
                   title="Various Games"
                   year=""
                   tags={["C#", "Unity", "Godot", "MonoGame"]}
@@ -173,7 +172,7 @@ function Projects() {
               </SwiperSlide>
               <SwiperSlide>
                 <ProjectPage
-                  image="the-cycle.png"
+                  image="the-cycle"
                   title="The Cycle"
                   year="(2024)"
                   tags={["Blender", "Motion Capture"]}
@@ -214,7 +213,7 @@ function Projects() {
               </SwiperSlide>
               <SwiperSlide>
                 <ProjectPage
-                  image="fluid-simulation.png"
+                  image="fluid-simulation"
                   title="Fluid Simulation Optimization"
                   year="(2024)"
                   tags={["C++", "OpenCL"]}

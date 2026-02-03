@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { HTMLAttributes } from "react";
 import Badge from "./Badge";
+import { useMediaQuery } from "../useMediaQuery";
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
   image: string;
@@ -19,25 +20,27 @@ const ProjectPage = ({
   className,
   ...props
 }: Props) => {
+  const isDesktop = useMediaQuery("(min-width: 1280px)");
+
   return (
     <div
       {...props}
-      className={`bg-bright-400 h-full w-full flex ${className ?? ""}`}
+      className={`h-full w-full flex flex-col xl:flex-row ${className ?? ""}`}
     >
       <img
-        src={`/src/assets/${image}`}
+        src={`/src/assets/${image + (isDesktop ? ".png" : "-wide.png")}`}
         alt=""
-        className="h-full w-auto object-contain"
+        className="h-full w-auto max-h-154 object-contain"
       />
-      <div className="p-6 pr-23 flex flex-col gap-6">
+      <div className="p-6 xl:pr-23 flex flex-col gap-6">
         <div className="text-xl text-justify">
-          <div className="flex gap-8 text-3xl font-light mb-2">
+          <div className="flex gap-8 text-3xl text-left font-light mb-2">
             <h2>{title}</h2>
             <h2 className="text-dull">{year}</h2>
           </div>
           {children}
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2 mb-8 xl:mb-0">
           {tags.map((tag) => (
             <Badge className="bg-dull text-bright-500">{tag}</Badge>
           ))}
