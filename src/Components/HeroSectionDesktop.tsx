@@ -5,7 +5,7 @@ function HeroSectionDesktop() {
     <div className="relative mx-auto max-w-338 h-200 flex items-center px-8">
       {/* Image */}
       <img
-        src="/src/assets/cover-image.png"
+        src="/cover-image.png"
         alt="Man sitting in chair"
         className="
           absolute

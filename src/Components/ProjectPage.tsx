@@ -28,7 +28,7 @@ const ProjectPage = ({
       className={`h-full w-full flex flex-col xl:flex-row ${className ?? ""}`}
     >
       <img
-        src={`/src/assets/${image + (isDesktop ? ".png" : "-wide.png")}`}
+        src={`/${image + (isDesktop ? ".png" : "-wide.png")}`}
         alt=""
         className="h-full w-auto max-h-154 object-contain"
       />

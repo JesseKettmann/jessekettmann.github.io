@@ -254,7 +254,7 @@ function Projects() {
                       . Additional notes on running the project are listed at
                       the bottom of{" "}
                       <a
-                        href="/src/assets/download/fluid-sim-optimization.pdf"
+                        href="/download/fluid-sim-optimization.pdf"
                         download
                         className="text-accent hover:text-accent-highlight"
                       >

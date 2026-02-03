@@ -5,7 +5,7 @@ function HeroSectionMobile() {
     <div className="relative mx-auto w-full aspect-18/16 flex justify-center items-end p-8">
       {/* Image */}
       <img
-        src="/src/assets/cover-image.png"
+        src="/cover-image.png"
         alt="Man sitting in chair"
         className="
           absolute

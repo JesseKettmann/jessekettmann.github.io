@@ -1,4 +1,3 @@
-import contoursImage from "../assets/contours.png";
 import AboutMeText from "./AboutMeText";
 import AboutMeCard from "./AboutMeCard";
 
@@ -8,7 +7,7 @@ function AboutMeDesktop() {
       <div className="absolute inset-0 grid grid-cols-2">
         <div className="bg-dull relative overflow-hidden">
           <img
-            src={contoursImage}
+            src="/contours.png"
             alt="Contour map"
             className="absolute top-0 left-0 min-w-640 opacity-25 object-cover"
           />

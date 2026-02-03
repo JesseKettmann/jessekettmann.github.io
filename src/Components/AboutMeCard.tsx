@@ -15,7 +15,7 @@ function AboutMeCard() {
           <div className="flex flex-col items-center">
             <img
               className="h-24 w-24 rounded-full object-cover aspect-square mb-2"
-              src="/src/assets/profile-picture.png"
+              src="/profile-picture.png"
               alt="Profile picture"
             />
             <h2 className="text-2xl font-medium">Jesse Kettmann</h2>
