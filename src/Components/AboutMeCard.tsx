@@ -14,7 +14,7 @@ function AboutMeCard() {
         <div className="flex flex-col sm:flex-row lg:flex-col gap-8">
           <div className="flex flex-col items-center">
             <img
-              className="h-24 w-24 rounded-full object-cover aspect-square mb-2"
+              className="h-30 w-30 rounded-full object-cover aspect-square mb-2"
               src="/profile-picture.png"
               alt="Profile picture"
             />
@@ -44,13 +44,15 @@ function AboutMeCard() {
             </li>
           </ul>
         </div>
-        <button
+        <a
+          href="/download/cv-jesse-kettmann.pdf"
+          download
           className="bg-accent hover:bg-accent-highlight cursor-pointer text-white font-medium
-            py-2 px-4 flex items-center mt-8 gap-3 rounded shadow transition duration-200"
+  py-2 px-4 flex items-center mt-8 gap-3 rounded shadow transition duration-200"
         >
           Download CV
           <ArrowDownTrayIcon className="size-6" />
-        </button>
+        </a>
       </div>
     </div>
   );
