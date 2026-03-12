@@ -21,7 +21,7 @@ function AboutMeCard() {
             <h2 className="text-2xl font-medium">Jesse Kettmann</h2>
             <h2 className="text-xl font-light">Software Engineer</h2>
           </div>
-          <ul className="list-none space-y-2.5">
+          <ul className="list-none space-y-2.5 sm:space-y-4 lg:space-y-2.5">
             <li className="flex items-center gap-3">
               <EnvelopeIcon className="size-6" />
               {EMAIL}

@@ -38,6 +38,7 @@
   --color-accent-highlight: #ec4e5d;
   --color-army-500: #3c5239;
   --color-army-400: #2a3c2f;
+  --color-wall: #d7dadf;
 }
 
 @layer components {

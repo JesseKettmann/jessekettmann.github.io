@@ -4,19 +4,19 @@ function HeroSectionMobile() {
   return (
     <div className="relative w-full flex flex-col justify-center p-global overflow-hidden">
       <div className="absolute left-1/2 -translate-x-1/2 top-0 w-full aspect-39/32 overflow-hidden">
+        <div className="absolute bg-wall top-0 h-full right-0 w-1/3" />
         {/* Image */}
         <img
           src="/cover-image.png"
-          alt="Man sitting in chair"
+          alt="Man leaning against wall"
           className="
             absolute
             left-1/2
-            bottom-0
-            -translate-x-1/2
-            translate-y-[35%]
-            w-[90vw]
-            h-auto
-            object-contain
+            top-0
+            -translate-x-5/22
+            w-auto
+            h-full
+            object-cover
             z-0
           "
         />
@@ -26,7 +26,7 @@ function HeroSectionMobile() {
             absolute
             inset-x-0
             bottom-0
-            h-[50%]
+            h-[40%]
             bg-linear-to-b
             from-transparent
             to-background-mint
@@ -35,7 +35,7 @@ function HeroSectionMobile() {
         />
       </div>
 
-      <div className="w-full aspect-43/32" />
+      <div className="w-full aspect-50/32" />
 
       {/* Content */}
       <div className="font-dm-sans text-center flex flex-col items-center z-10">
