@@ -4,9 +4,9 @@ import ProjectPage from "./ProjectPage";
 
 function Projects() {
   return (
-    <div className="w-full overflow-hidde bg-background-mint">
+    <div className="w-full overflow-hidden bg-[url('/concrete.png')] bg-repeat bg-size-[800px]">
       <div className="relative mx-auto max-w-400 h-full items-center sm:p-8">
-        <div className="h-full w-full sm:rounded sm:shadow overflow-hidden bg-bright-500 flex flex-col">
+        <div className="h-full w-full sm:rounded sm:shadow-md overflow-hidden bg-bright-500 flex flex-col">
           <div className="shadow-md z-10">
             <h2 className="text-4xl font-light my-4 text-dark z-10 text-center">
               Featured Projects

@@ -10,7 +10,7 @@ import { EMAIL, PHONE } from "../constants";
 function AboutMeCard() {
   return (
     <div className="relative z-10 p-global text-dark flex justify-center">
-      <div className="bg-background-mint shadow p-4 rounded flex flex-col items-center w-fit">
+      <div className="bg-background-mint shadow-md p-4 rounded flex flex-col items-center w-fit">
         <div className="flex flex-col sm:flex-row lg:flex-col gap-8">
           <div className="flex flex-col items-center">
             <img

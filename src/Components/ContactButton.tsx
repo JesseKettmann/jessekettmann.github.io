@@ -9,7 +9,7 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
 const ContactButton = ({ onClick, children, className }: Props) => {
   return (
     <button
-      className={`rounded-full w-13 h-13 text-white bg-accent hover:bg-accent-highlight cursor-pointer shadow flex items-center justify-center transition duration-200 ${className ?? ""}`}
+      className={`rounded-full w-13 h-13 text-white bg-accent hover:bg-accent-highlight cursor-pointer flex items-center justify-center transition duration-200 ${className ?? ""}`}
       onClick={onClick}
     >
       {children}

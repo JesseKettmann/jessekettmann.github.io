@@ -6,7 +6,7 @@ function HeroSection() {
   const isDesktop = useMediaQuery("(min-width: 1280px)");
 
   return (
-    <div className="w-full overflow-hidden bg-background-mint">
+    <div className="w-full overflow-hidden bg-[url('/concrete.png')] bg-repeat bg-size-[800px]">
       {isDesktop ? <HeroSectionDesktop /> : <HeroSectionMobile />}
     </div>
   );

@@ -3,7 +3,7 @@ import HeroSectionContent from "./HeroSectionContent";
 function HeroSectionDesktop() {
   return (
     <>
-      <div className="absolute bg-wall top-0 h-190 right-0 w-[calc((100vw-60rem)/2)]" />
+      <div className="absolute bg-bright-500 top-0 h-190 right-0 w-[calc((100vw-60rem)/2)]" />
       <div className="relative mx-auto max-w-260 h-190 flex items-center px-global">
         {/* Image */}
         <img

@@ -34,8 +34,8 @@
   --color-bright-300: #d7d8d3;
   --color-dark: #161a14;
   --color-dull: #7e807c;
-  --color-accent: #db3444;
-  --color-accent-highlight: #ec4e5d;
+  --color-accent: #bf346f; /* db3444 */
+  --color-accent-highlight: #da4d89; /* ec4e5d */
   --color-army-500: #3c5239;
   --color-army-400: #2a3c2f;
   --color-wall: #d7dadf;
