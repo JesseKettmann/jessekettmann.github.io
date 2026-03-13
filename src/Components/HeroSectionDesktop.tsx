@@ -1,8 +1,13 @@
 import HeroSectionContent from "./HeroSectionContent";
+import ParticleBackground from "./ParticleBackground";
 
 function HeroSectionDesktop() {
   return (
     <>
+      <div className="absolute w-[calc((100vw-60rem)/2+70rem)] h-130 -bottom-40 -left-40 overflow-hidden mask-[linear-gradient(to_top,black,transparent)]">
+        {/* Particles */}
+        <ParticleBackground />
+      </div>
       <div className="absolute bg-bright-500 top-0 h-190 right-0 w-[calc((100vw-60rem)/2)]" />
       <div className="relative mx-auto max-w-260 h-190 flex items-center px-global">
         {/* Image */}
