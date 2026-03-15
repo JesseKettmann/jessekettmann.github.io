@@ -17,7 +17,7 @@ function Education() {
             period="2014 - 2020"
             className="w-full"
           >
-            <p className="text-justify">
+            <p className="sm:text-justify">
               Pre-University Education (VWO, Gymnasium), with a Science and
               Engineering (N&T) profile. Curriculum included English at C1
               Advanced level.
@@ -30,7 +30,7 @@ function Education() {
             period="2020 - 2023"
             className="w-full"
           >
-            <p className="text-justify">
+            <p className="sm:text-justify">
               Bachelor’s degree in Computing Science with a specialization in
               Game Technology. Curriculum covered algorithms and data
               structures, security, web development, databases, and computer
@@ -45,7 +45,7 @@ function Education() {
             period="2023 - 2025"
             className="w-full"
           >
-            <p className="text-justify mb-4 sm:mb-8">
+            <p className="sm:text-justify mb-4 sm:mb-8">
               Master’s degree in Game & Media Technology focused on interactive
               systems and digital media. Curriculum included game AI,
               physics-based simulation, computer animation, optimization, and
